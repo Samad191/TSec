@@ -6,7 +6,7 @@ const RoundedButton = ({ label, onClick }) => {
     <Button
     //   variant="contained"
       color="primary"
-      sx={{ borderRadius: "30px", color: 'black', backgroundColor: '#99f524', padding: '1rem' }}
+      sx={{ borderRadius: "30px", color: 'black', backgroundColor: '#99f524', padding: '1rem', marginTop: '3rem' }}
       onClick={onClick}
       
     >

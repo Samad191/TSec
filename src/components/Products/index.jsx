@@ -19,8 +19,6 @@ const useStyles = makeStyles((theme) => ({
   },
   text: {
     fontSize: "10.5rem",
-    fontFamily: "var(--font-secondary)",
-    fontWeight: "var(--font-weight-regular)",
   },
 }));
 
@@ -36,8 +34,8 @@ const Products = () => {
           style={{
             fontSize: "2.5rem",
             width: "100%",
-            fontFamily: "var(--font-secondary)",
-            fontWeight: "var(--font-weight-regular)",
+     
+            marginTop: '5rem'
           }}
         >
           A complete suite of products to
@@ -48,8 +46,6 @@ const Products = () => {
           style={{
             fontSize: "2.5rem",
             width: "100%",
-            fontFamily: "var(--font-secondary)",
-            fontWeight: "var(--font-weight-regular)",
           }}
         >
           create and participate in web3
