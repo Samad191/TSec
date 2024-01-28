@@ -2,11 +2,9 @@ import {
   Box,
   Card,
   CardContent,
-  CardMedia,
   Grid,
   Typography,
 } from "@mui/material";
-import natureImg from "../../assets/metamask.png";
 import AddIcon from "@mui/icons-material/Add";
 
 export const NewsLetter = () => {

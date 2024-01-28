@@ -66,7 +66,6 @@ export default function MediaControlCard() {
         <Card
             sx={{
               display: "flex",
-              display: "flex",
               textDecoration: "none",
               alignItems: "center",
               background: "#f2f2f2",
@@ -102,7 +101,6 @@ export default function MediaControlCard() {
         
         <Card
             sx={{
-              display: "flex",
               display: "flex",
               textDecoration: "none",
               alignItems: "center",
