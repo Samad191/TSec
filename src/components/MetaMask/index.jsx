@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 
 export const MetaMask = () => {
   return (
-    <Box sx={{ flexGrow: 1, padding: '0 10rem 0 10rem' }}>
+    <Box sx={{ flexGrow: 1, padding: '0 10rem 0 10rem', marginTop: '5rem' }}>
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <h1>Carousel</h1>
@@ -13,9 +13,10 @@ export const MetaMask = () => {
         <Grid item xs={6}  >
             <Typography style={{
                 fontSize: 'max(1.5rem,24px)',
-                fontWeight: 'var(--font-weight-regular)',
+                fontWeight: 400,
                 lineHeight: '1.2em',
-                fontFamily: 'var(--font-secondary)'
+                fontFamily: 'Atyp Display", sans-serif',
+                letterSpacing: '0.05em',
             }} >MetaMask</Typography>
          <Typography
             style={{
@@ -23,8 +24,9 @@ export const MetaMask = () => {
                 fontSize: 'max(1.5rem,24px)',
                 fontWeight: 'var(--font-weight-regular)',
                 lineHeight: '1.2em',
-                fontFamily: 'var(--font-secondary)',
-                width: '80%'
+                fontFamily: 'Atyp Display", sans-serif',
+                width: '29rem',
+                letterSpacing: '0.05em',
             }}
          >
          
