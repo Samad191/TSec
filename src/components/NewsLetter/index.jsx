@@ -19,7 +19,6 @@ export const NewsLetter = () => {
           <Card
             sx={{
               display: "flex",
-              display: "flex",
               textDecoration: "none",
               alignItems: "center",
               background: "#f2f2f2",
