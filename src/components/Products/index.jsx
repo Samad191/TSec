@@ -5,7 +5,7 @@ import { makeStyles } from "@mui/styles";
 import { Typography } from "@mui/material";
 import RoundedButton from "../Button";
 
-import MM from "../../assets/MM.mp4";
+// import MM from "../../assets/MM.mp4";
 
 const useStyles = makeStyles((theme) => ({
   centeredTextContainer: {
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Products = () => {
-  const videos = [{ src: MM }, { src: MM }];
+//   const videos = [{ src: MM }, { src: MM }];
   const classes = useStyles();
 
   return (

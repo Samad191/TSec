@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import MM from './assets/MM.mp4';
 import Products from './components/Products';
-import { MetaMask } from './components/MetaMask';
+import MetaMask from './components/MetaMask/MetaMask';
+import MyFooter from './components/Footer/MyFooter';
 
 function App() {
   return (
@@ -12,7 +10,7 @@ function App() {
       <Navbar />
       <Products />
       <MetaMask />
-     <Footer />
+     <MyFooter />
     </div>
   );
 }
