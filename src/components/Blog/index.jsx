@@ -31,49 +31,45 @@ function Blog() {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const isMediumScreen = useMediaQuery(theme.breakpoints.down("md"));
 
+  console.log("is small screen", isSmallScreen);
+  console.log("is medium", isMediumScreen);
+
   return (
-    <div style={{ marginTop: "10rem" }}>
-      <Box style={{ marginLeft: '20px' }} >
-        <Typography>BLOG</Typography>
-        <Typography style={{ fontSize: "3rem" }}>
-          Read the latest from Consensys
-        </Typography>
-      </Box>
+    <div style={{ marginLeft: "25px", marginRight: "25px" }}>
       <Grid
         container
         spacing={3}
         style={{
           flexDirection: isSmallScreen ? "column" : "row",
-          marginTop: "2rem",
-          // paddingLeft: '4rem'
-          // margin: '10px 0px 0px 0px'
+          marginTop: "1.5rem",
         }}
       >
         <Grid item xs={12} sm={6} md={4}>
           <CardMedia
             component="img"
-            sx={{ width: isSmallScreen ? "90%" : "25rem", height: "90%" }}
+       
             image={HelloBuilderImg}
             alt="Live from space album cover"
             className={classes.cardMedia}
           />
-          {/* <Typography>Welcome to the Age of the <p>Builder</p> </Typography> */}
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <CardMedia
             component="img"
-            sx={{
-              width: isSmallScreen ? "80%" : "15rem",
-              height: "60%",
-              marginLeft: "0.1rem",
-            }}
             image={Article2Img}
             alt="Live from space album cover"
             className={classes.cardMedia}
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}></Grid>
-      </Grid>{" "}
+        <Grid item xs={12} sm={6} md={4}>
+          <CardMedia
+            component="img"
+            image={Article2Img}
+            alt="Live from space album cover"
+            className={classes.cardMedia}
+          />
+        </Grid>
+      </Grid>
     </div>
   );
 }

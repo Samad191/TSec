@@ -7,6 +7,7 @@ import Blog from './components/Blog';
 import { About } from './components/About';
 import MetaMask from './components/MetaMask/MetaMask';
 import MyFooter from './components/Footer/MyFooter';
+import { NewsLetter } from './components/NewsLetter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Blog />
       {/* <Testing /> */}
+      <NewsLetter />
      <MyFooter />
 
     </div>

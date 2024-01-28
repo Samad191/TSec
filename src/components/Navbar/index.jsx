@@ -70,7 +70,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar style={{ width: '100%', margin: '0 auto' }} position="static">
+    <AppBar style={{ width: '60%', margin: '0 auto',  background: 'red', backgroundColor: '#f8f8ff', marginTop: '2rem' }} position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           ABC
@@ -95,14 +95,17 @@ const Navbar = () => {
         ) : (
           // Additional items or components for larger screens
           <>
-            <Typography variant="h6" sx={{ marginRight: '20px' }}>
-              Item 1
+            <Typography color="black" fontSize='0.8rem' variant="h6" sx={{ paddingRight: '70px' }}>
+              Products
             </Typography>
-            <Typography variant="h6" sx={{ marginRight: '20px' }}>
-              Item 2
+            <Typography color="black" fontSize='0.8rem'  variant="h6" sx={{ paddingRight: '50px' }}>
+              Ecosystem
             </Typography>
-            <Typography variant="h6" sx={{ marginRight: '20px' }}>
-              Item 3
+            <Typography color="black" fontSize='0.8rem' variant="h6" sx={{ marginRight: '50px' }}>
+              Company
+            </Typography>
+            <Typography color="black" fontSize='0.8rem' variant="h6" sx={{ marginRight: '20px' }}>
+              Blog
             </Typography>
           </>
         )}

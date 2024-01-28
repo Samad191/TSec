@@ -1,4 +1,4 @@
-import natureImg from "../../assets/nature.jpg";
+import natureImg from "../../assets/metamask.png";
 import * as React from "react";
 import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -19,9 +19,13 @@ export default function MediaControlCard() {
   const isMediumScreen = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
-    <div style={{ marginTop: "4rem" }}>
-      <Grid container spacing={3} style={{ flexDirection: isSmallScreen ? 'column' :  'row' }} >
+    <div style={{ marginTop: "4rem", marginLeft: '20px', marginRight: '20px' }}>
+    <Typography fontWeight={400} fontSize={'2rem'} fontFamily= "Atyp Display, sans-serif" >Product suite</Typography>
+
+      <Grid container spacing={3} style={{ flexDirection: isSmallScreen ? 'column' :  'row', marginTop: '1.5rem' }} >
         <Grid item xs={12} sm={6} md={4} >
+
+        <Typography>FOR EVERYONE</Typography>
           <Card
             sx={{
               display: "flex",
@@ -49,7 +53,7 @@ export default function MediaControlCard() {
             </Box>
             <CardMedia
               component="img"
-              sx={{ width: 151, height: "80%" }}
+              sx={{ width: 101, height: "70%" }}
               image={natureImg}
               alt="Live from space album cover"
             />
@@ -57,6 +61,8 @@ export default function MediaControlCard() {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4} >
+        <Typography>FOR DEVELOPERS</Typography>
+        
         <Card
             sx={{
               display: "flex",
@@ -84,7 +90,7 @@ export default function MediaControlCard() {
             </Box>
             <CardMedia
               component="img"
-              sx={{ width: 151, height: "80%" }}
+              sx={{ width: 101, height: "70%" }}
               image={natureImg}
               alt="Live from space album cover"
             />
@@ -92,6 +98,8 @@ export default function MediaControlCard() {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4} >
+        <Typography>FOR THE ECOSYSTEM</Typography>
+        
         <Card
             sx={{
               display: "flex",
@@ -119,7 +127,7 @@ export default function MediaControlCard() {
             </Box>
             <CardMedia
               component="img"
-              sx={{ width: 151, height: "80%" }}
+              sx={{ width: 101, height: "70%" }}
               image={natureImg}
               alt="Live from space album cover"
             />
