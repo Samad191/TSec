@@ -7,7 +7,8 @@ import Products from './components/Products';
 import { MetaMask } from './components/MetaMask';
 import MultiActionAreaCard from './components/Card';
 import Testing from './components/Card/testing';
-import MyCard from './Blog';
+import Blog from './components/Blog';
+import { About } from './components/About';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Products />
       {/* <MetaMask /> */}
       <MultiActionAreaCard />
-      <MyCard />
+      <About />
+      <Blog />
       {/* <Testing /> */}
-     {/* <Footer /> */}
+     <Footer />
     </div>
   );
 }
